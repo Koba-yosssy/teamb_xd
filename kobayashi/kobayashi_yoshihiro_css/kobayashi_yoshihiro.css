@@ -1,0 +1,276 @@
+@charset "utf-8";
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0 auto;
+}
+
+p {
+    text-align:center;
+}
+
+/* .head
+------------------------------------------ */
+.top {
+    height: 672px;
+    background-image: url(../img/bg2.png) ;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.head {
+    height:100px;
+    background-color:#F9C72F;
+    margin-bottom: 0;
+    
+}
+
+.profile-title img {
+    display:block;
+    margin:auto;
+}
+
+.profile-photo img {
+    display:block;
+    margin:auto;
+}
+
+.profile-photo  {
+    padding-bottom:230px;
+}
+
+.head img {
+    width:270px;
+}
+
+/* .wrap
+------------------------------------- */
+.wrap {
+    background-color:#F9C72F;
+    margin:auto;
+    padding: 0 75 ;
+}
+
+/* .container
+------------------------------------- */
+.container {
+    
+    margin:auto;
+    
+}
+
+/* .box1
+--------------------------------------*/
+.box1{
+    /* background-color: pink; */
+    /* width: 1250px; */
+    height: 586px;
+    margin:0 auto;
+    margin-bottom:66px;
+    position: relative;
+}
+
+.section1 {
+    background-color: ffffff;
+    width: 680px;
+    height: 586px;
+    border-radius: 80px;
+    padding-top:30px;
+    margin:auto;
+}
+
+.section01-logo img {
+    display: block;
+     margin:auto;
+     margin-top:30px;
+}
+.photo-left01  {
+    left:0px;
+    top:148px;
+    right:956px;
+    bottom:190px;
+   position: absolute;
+}
+
+.photo-right01  {
+    left:860px;
+    top:80px;
+    right:0;
+    bottom:28px;
+   position: absolute;
+}
+.photo-right01 img {
+    width:100%;
+}
+/* .box2 
+--------------------------------------*/
+.box2{
+    /* background-color:#ffc0cb; */
+    opacity: 50;
+    /* width: 1250px; */
+    height: 586px;
+    margin:0 auto;
+    margin-bottom:66px;
+    position: relative;
+}
+.section2 {
+    background-color: ffffff;
+    width: 680px;
+    height: 586px;
+    border-radius: 80px;
+    padding-top:30px;
+    margin:auto;
+}
+
+.section02-logo img {
+    display: block;
+     margin: auto;
+     margin-bottom:63.5px;
+     margin-top:30px;
+}
+
+.photo-left02  {
+    left:0px;
+    top:120px;
+    right:956px;
+    bottom:150px;
+   position: absolute;
+}
+
+.photo-left02 img {
+    width:110%
+}
+
+.photo-right02  {
+    left:860px;
+    top:250px;
+    right:0;
+    bottom:50px;
+   position: absolute;
+}
+
+.photo-right02 img {
+    width:90%
+}
+
+/* .box3
+-------------------------------------- */
+.box3{
+    /* background-color:pink; */
+    opacity: 50;
+    /* width: 1250px; */
+    height: 586px;
+    margin:0 auto;
+    margin-bottom:66px;
+    position: relative;
+}
+.section3 {
+    background-color: ffffff;
+    width: 680px;
+    height: 586px;
+    border-radius: 80px;
+    padding-top:30px;
+    margin:auto;
+}
+
+.section03-logo img {
+    display: block;
+     margin:auto;
+     margin-top:30px;
+     margin-bottom:45.5px;
+     
+}
+
+.photo-left03  {
+    left:0px;
+    top:148px;
+    right:956px;
+    bottom:190px;
+   position: absolute;
+}
+
+.photo-right03  {
+    left:860px;
+    top:80px;
+    right:0;
+    bottom:28px;
+   position: absolute;
+}
+.photo-right03 img {
+    width:90%;
+}
+
+/* .box4
+--------------------------------------- */
+.box4{
+    /* background-color:pink; */
+    opacity: 50;
+    /* width: 1250px; */
+    height: 586px;
+    margin:0 auto;
+    position: relative;
+}
+.section4 {
+    background-color: ffffff;
+    width: 680px;
+    height: 586px;
+    border-radius: 80px;
+    padding-top:30px;
+    margin:auto;
+    margin-bottom:66px;
+}
+
+.section04-logo img {
+    display: block;
+     margin:auto;
+     margin-top:54px;
+     margin-bottom:80px;
+}
+
+.photo-left04  {
+    left:0px;
+    top:120px;
+    right:956px;
+    bottom:150px;
+   position: absolute;
+}
+
+.photo-left04 img {
+    width:150%
+}
+
+.photo-right04  {
+    left:860px;
+    top:300px;
+    right:0;
+    bottom:50px;
+   position: absolute;
+}
+
+.photo-right04 img {
+    width:100%
+}
+
+.speacer {
+    height:100px;
+}
+
+/* .footer
+-------------------------------------------- */
+footer {
+    padding-top:50px;
+    height:440px;    
+    background-image: url(../img/bg2.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+
+.logo img {
+    display:block;
+    margin:auto;
+}
